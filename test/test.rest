@@ -1,0 +1,11 @@
+###
+# Fetch all information from the /awesome/applicant endpoint
+GET http://localhost:3000/awesome/applicant
+Accept: application/json
+
+###
+
+###
+# Fetch information from an endpoint that does not exist to simulate an error
+GET http://localhost:3000/nonexistent/route
+Accept: application/json
